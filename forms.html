@@ -26,7 +26,7 @@
         </p>
         <p>
             <label for="number">Enter a Number</label>
-            <input type="number" placeholder="Enter a Number" id="number" max="100">
+            <input type="number" placeholder="Enter a Number" id="number" max="100" min="0">
         </p>
         <!--This button submits the form-->
         <button>Submit</button>
@@ -95,6 +95,23 @@
     </form>
 
     <h2>Validations Demo</h2>
+    <form action="/dummy">
+        <label for="first">Enter First Name</label>
+        <input type="text" name="first" id="first" required>
+        <p>
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" minlength="5" maxlength="20" required>
+        </p>
+
+        <p>
+            <!-- <input type="email" required> -->
+            <input type="url">
+        </p>
+
+        <button>Submit</button>
+    </form>
+
+
 </body>
 
 </html>
