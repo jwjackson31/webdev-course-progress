@@ -1,0 +1,41 @@
+--Crucial--
+-Focus on concepts
+-Media Queries
+-Flex shorthand
+-Flex-basis,grow, and shrink
+-Flex-wrap
+-Align-content and align-self
+-Justify-content
+-Flex-direction
+
+
+--Important--
+
+--Nice to Have--
+
+
+-=What is flex box?=-
+A one dimensional layout method for laying out
+items in rows or columns.
+    Somewhat recent addition to CSS, included
+    to address common layout frustrations
+        flexbox allows us to distrubute space
+        dynamically across elements of an unknown 
+        size, hence the term "flex"
+
+-=Flex Sizing Properties=-
+
+-Flex Basis 
+    Defines the initial size of an element before
+    additional space is distrubuted.
+-Flex grow
+Controls the amount of available space an
+element should take up. Accepts a unit-less number value
+-Flex shrink
+If items are larger than the container, they
+shrink according to flex-shrink
+
+-Media Queries
+Allow us to modify our styles 
+depending on particular parameters like
+screen width or device type
