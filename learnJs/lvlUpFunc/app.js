@@ -57,30 +57,64 @@
 
 // Returning Functions---
 
-function makemysteryfunc() {
-    const rand = Math.random();
-    if (rand > 0.5) {
-        return function () {
-            console.log("Congrats, I am a good Function")
+// function makemysteryfunc() {
+//     const rand = Math.random();
+//     if (rand > 0.5) {
+//         return function () {
+//             console.log("Congrats, I am a good Function")
 
-        }
-    } else {
-        return function () {
-            alert("You have been infected by a computer virus")
-            alert("Stop trying to close this window");
-            alert("Stop trying to close this window");
-            alert("Stop trying to close this window");
-            alert("Stop trying to close this window");
-        }
-    }
-}
+//         }
+//     } else {
+//         return function () {
+//             alert("You have been infected by a computer virus")
+//             alert("Stop trying to close this window");
+//             alert("Stop trying to close this window");
+//             alert("Stop trying to close this window");
+//             alert("Stop trying to close this window");
+//         }
+//     }
+// }
 
-function makeBetweenFunc(min, max) {
+// function makeBetweenFunc(min, max) {
+//     return function (num) {
+//         return num >= min && num <= max
+//     }
+// }
 
-}
+// function isBetween(num) {
+//     return num >= 50 && num <= 100
+// }
 
-makeBetweenFunc(50, 100) =>
 
-function isBetween(num) {
-    return num >= 50 && <= 100
-}
+// const myMath = {
+//     PI: 3.14159,
+//     square(num) {
+//         return num * num
+//     },
+//     cube(num) {
+//         return num * num * num
+//     }
+
+// }
+
+
+// const cat = {
+//     name: 'Blue Steele',
+//     color: 'gray',
+//     breed: 'scottish fold',
+//     meow() {
+//         console.log(`${this.name} says MEOWWWW`)
+
+//     }
+// }
+
+
+// const meow2 = cat.meow;
+
+
+// try {
+//     hello.toUpperCase()
+
+// } catch {
+//     console.log('ERROR')
+// }
